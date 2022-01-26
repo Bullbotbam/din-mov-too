@@ -1,0 +1,38 @@
+{
+	"name": "din-mov-too",
+	"version": "1.0.0",
+	"description": "Dinner and  Movie Too",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack --mode production",
+		"start": "webpack --mode development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Bullbotbam/din-mov-too.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Bullbotbam/din-mov-too/issues"
+	},
+	"homepage": "https://github.com/Bullbotbam/din-mov-too#readme",
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.16.12",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.3",
+		"webpack": "^5.67.0",
+		"webpack-cli": "^4.9.2"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	}
+}
